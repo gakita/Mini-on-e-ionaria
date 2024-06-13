@@ -184,8 +184,18 @@ nav a:hover{
 }
 
 .category-brasil{
+    background-color: transparent;
+    border: 1px solid forestgreen;
+    color: black;
+    padding: .3rem;
+    max-width: 120px;
+    text-align: center;
+    border-radius: 1rem;
+    transition: .3s;
+}
+
+.category-brasil:hover{
     background-color: forestgreen;
     color: #fff;
-    padding: .3rem;
-    border-radius: 1rem;
+    cursor: pointer;
 }
