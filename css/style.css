@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #eee;
+    font-family:"Poppins", sans-serif;
+}
+
+header{
+    background-color: #fff;
+    padding: .4rem;
+    box-shadow: 0 0 0 1px #bbbbbb;
+}
+
+header h1{
+    color: #313131;
+    font-weight: 300;
+}
+
+header p{
+    color: #313131;
+}
+
+main{
+    padding: 1rem;
+}
+
+nav a{
+    margin: 1rem;
+    text-decoration: none;
+    color: #313131;
+    font-weight: 600;
+    transition: .3s;
+    font-size: medium;
+}
+
+nav a:hover{
+    color: #fd7e14;
+}
+
+.bg-paragraph{
+    background-color: #3e3e3e;
+    color: #fff;
+    padding: .8rem;
+    border-radius: 1rem;
+}
+
+.link-head{
+    text-decoration: none;
+    color: #313131;
+}
+
+.demo-image{
+    width: 120px;
+    height: 120px;
+}
+
+.container-person{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fff;
+    padding: 1rem;
+    justify-content: center;
+    width: 900px !important;
+}
+
+.container-person2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fff;
+    padding: 1rem;
+    justify-content: end;
+    width: 900px !important;
+    margin-left: 1rem;
+}
+
+.container-person3{
+    width: 330px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.search-icon{
+    background: #fd7e14;
+    font-size: 30px;
+    border-radius: 100px;
+    padding: 1.25px 7px;
+    color: #fff;
+    transition: .3s all;
+}
+
+.search-icon:hover{
+    background-color: #ff9e14;
+    cursor: pointer;
+    color: #692529;
+}
+
+.search-bar-input{
+
+    background: none;
+    font-family:"Poppins", sans-serif;
+    font-size: medium;
+}
+
+.profile-icon{
+    color: #fd7e14;
+    font-size: 30px;
+    transition: .3s;
+}
+
+.profile-icon:hover{
+    color: #ff9e14;
+    cursor: pointer;
+}
+
+.cards{
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 0 1px #bbbbbb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: .5rem;
+    justify-content: center;
+    width: 240px;
+    height: 400px;
+    text-align: center;
+    transition: .3s;
+}
+
+.card-content{
+    max-width: 300px;
+    max-height: 400px;
+    margin: 0 auto;
+}
+
+.cards img{
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+}
+
+.cards p{
+    color: #313131;
+    font-weight: 300;
+}
+
+.news-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    width: 240px;
+    height: 400px;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 0 1px #bbbbbb;
+    text-align: center;
+    transition: .3s;
+    font-size: medium;
+}
+
+.news-card img{
+    width: 680px;
+    height: 150px;
+    border-radius: 20px;
+}
+
+.news-img{
+    width: 680px;
+    height: 150px;
+    border-radius: 20px;
+}
